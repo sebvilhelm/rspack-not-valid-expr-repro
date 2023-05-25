@@ -17,6 +17,11 @@ const config = {
   entry: {
     main: "./src/index.js",
   },
+  builtins: {
+    define: {
+      ARTIFACT_ID: "88aa83392a-572612741d",
+    },
+  },
   module: {
     rules: [
       {
